@@ -20,7 +20,7 @@ public class Article extends Reference {
 
     /**
      * Creates a new Article reference.
-     * @param author
+     * @param author  the author
      * @param title
      * @param publicationYear
      * @param journal
