@@ -6,6 +6,9 @@ jdk:
 os:
   - linux
 
+before_install:
+ - chmod +x gradlew
+
+
 script:
-  - chmod +x ./gradlew build connectedCheck
   - ./gradlew clean test
