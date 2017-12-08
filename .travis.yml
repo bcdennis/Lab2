@@ -1,4 +1,6 @@
 language: java
+before_install:
+ - chmod +x gradlew
 
 jdk:
   - oraclejdk8
@@ -6,8 +8,6 @@ jdk:
 os:
   - linux
 
-before_install:
- - chmod +x gradlew
 
 
 script:
