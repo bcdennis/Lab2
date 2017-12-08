@@ -7,4 +7,5 @@ os:
   - linux
 
 script:
+  - chmod +x ./gradlew build connectedCheck
   - ./gradlew clean test
